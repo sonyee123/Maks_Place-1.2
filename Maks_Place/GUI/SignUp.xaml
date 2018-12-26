@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maks_Place.GUI.SignUp">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="5" BackgroundColor="{DynamicResource backgroundColor3}" >
+            <StackLayout Orientation="Horizontal" />
+            <Entry Placeholder="First Name" PlaceholderColor="{DynamicResource textColor5}"
+                   BackgroundColor="{DynamicResource backgroundColor5}"/>
+            <Entry Placeholder="Last Name" PlaceholderColor="{DynamicResource textColor5}"
+                   BackgroundColor="{DynamicResource backgroundColor5}"/>
+            <Entry Placeholder="Email" Keyboard="Email" PlaceholderColor="{DynamicResource textColor5}"
+                   BackgroundColor="{DynamicResource backgroundColor5}"/>
+            <Entry Placeholder="Password" IsPassword="True" PlaceholderColor="{DynamicResource textColor5}"
+                   BackgroundColor="{DynamicResource backgroundColor5}"/>
+            <Entry Placeholder="Confirm Password" IsPassword="True" PlaceholderColor="{DynamicResource textColor5}"
+                   BackgroundColor="{DynamicResource backgroundColor5}"/>
+            <Label Text="Date Of Birth" TextColor="{DynamicResource textColor4}" />
+                <DatePicker Date="14 June 1999" Format="dd MMM yyyy" MinimumDate="1 Jan 1900" MaximumDate="01 Jan 2018" 
+                            TextColor="{DynamicResource textColor5}" BackgroundColor="{DynamicResource backgroundColor5}"/>
+                <Entry Placeholder="Address" PlaceholderColor="{DynamicResource textColor5}" BackgroundColor="{DynamicResource backgroundColor5}"/>
+            <StackLayout Spacing="20">
+            <StackLayout Orientation="Horizontal" >
+                <Label Text="Receive EXCITING notifications of new menu items and news?" TextColor="{DynamicResource textColor4}"></Label>
+                <Switch IsToggled="False"></Switch>
+            </StackLayout>
+            <Button Text="Sign Up" BackgroundColor="{DynamicResource backgroundColor2}"></Button>
+            <Label Text="Already have account? Sign In" TextColor="{DynamicResource textColor4}"></Label>
+            <Button Text="Log In" BackgroundColor="{DynamicResource backgroundColor2}"  x:Name="btnLogIn" Clicked="ButtonLogIn_Clicked"></Button>
+        </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

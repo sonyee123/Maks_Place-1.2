@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Maks_Place.GUI.Individual" xmlns:local="clr-namespace:Maks_Place.GUI" Title="Individual"> 
+<local:Noodles Icon="icons8noodles48.png"/>
+<local:Porridge Icon="icons8porridge48.png"/>
+<local:Rice Icon="icons8ricebowl48.png"/>
+<local:Western Icon="icons8western48.png"/>
+</TabbedPage>

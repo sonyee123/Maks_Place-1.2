@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maks_Place.GUI.Accounts">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="{DynamicResource backgroundColor3}">
+            <Entry Placeholder="Username" x:Name="usernametxt" Keyboard="Default" PlaceholderColor="{DynamicResource textColor5}"
+                   BackgroundColor="{DynamicResource backgroundColor5}"/>
+            <Entry Placeholder="Password" IsPassword="True" x:Name="passwordtxt" PlaceholderColor="{DynamicResource textColor5}"
+                   BackgroundColor="{DynamicResource backgroundColor5}"/>
+            <Label x:Name="errMsg"></Label>
+            <Button Text="Log In"  Clicked="Button_Clicked" BackgroundColor="{DynamicResource backgroundColor2}"/>
+            <Button Text="Sign Up" x:Name="btnSignUp" Clicked="ButtonSignUp_Clicked" BackgroundColor="{DynamicResource backgroundColor2}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

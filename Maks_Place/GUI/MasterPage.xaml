@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Maks_Place.GUI.MasterPage" 
+             xmlns:local="clr-namespace:Maks_Place.GUI" Title="Master" Padding="0,40,0,0" Icon="icons8menufilled50.png">
+    <StackLayout>
+        <ListView x:Name="lstham" x:FieldModifier="public">
+           <ListView.ItemsSource>
+                <x:Array Type="{x:Type local:MasterPageItem}">
+                    <local:MasterPageItem Title="Home" IconSource="icons8homepage50.png" TargetType="{x:Type local:Home}" />
+                    <local:MasterPageItem Title="Info" IconSource="icons8about50.png" TargetType="{x:Type local:Info}" />
+                    <local:MasterPageItem Title="Settings" IconSource="icons8settings50.png" TargetType="{x:Type local:Setting}" />
+                    <local:MasterPageItem Title="Accounts" IconSource="icons8user50.png" TargetType="{x:Type local:Accounts}" />
+                   
+                </x:Array>
+            </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="5,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30"/>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding IconSource}" />
+                            <Label Grid.Column="1" Text="{Binding Title}" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

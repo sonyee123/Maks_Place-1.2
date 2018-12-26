@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Maks_Place.GUI.Info" Title="Information">
+
+    <ContentPage.Content>
+        <ScrollView>
+        <Frame BackgroundColor="{DynamicResource backgroundColor3}" >
+            <StackLayout Spacing="30">
+                <Image Source="Logo2.png"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                
+                
+                    <Label Text= "Opening Hours: 4.30PM TO 1AM 
+                                    Closed on Mondays"
+                           HorizontalTextAlignment="Center"
+                           VerticalOptions="Center"
+                           TextColor="{DynamicResource textColor3}" FontSize = "Medium"
+                           FontFamily="{StaticResource Hind}" />
+
+                  
+                        <Label Text= "For Reservation and Takeaways: 6844-7656"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Start"
+                           TextColor="{DynamicResource textColor3}" FontSize = "Medium"
+                           FontFamily="{StaticResource Hind}"/>
+
+                    <Label Text="History:" 
+                      FontSize="17"
+                      FontAttributes="Bold"
+                      TextColor="{DynamicResource textColor3}"
+                      HorizontalOptions="StartAndExpand"
+                      VerticalOptions="Center"
+                      FontFamily="{StaticResource FiraSans}" />
+
+                    <Image Source="MakPlace.jpg"/>
+
+                    <Label Text= "Born as a Chinese Muslim. Mak has managed to recreate his beloved mum's home-cooking in Mak's Place, which was set up at 401 Changi Road in the 1990s at a 1980s ambience.
+                                  
+                                  Mak's Place offer over 100 items in their menu. Nothing beats the Butter Squid and Cereal Prawn served at Mak's Place. While you are here, order our homemade barley and ice lemon tea!"                
+             
+                Margin="11"
+                HorizontalOptions="Center"
+                FontAttributes="Bold"
+                TextColor="{DynamicResource textColor3}" FontSize = "18" />
+
+                
+                </StackLayout>
+       
+        </Frame>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Maks_Place.GUI.Family" xmlns:local="clr-namespace:Maks_Place.GUI">
+  <local:Omelette Icon="icons8eggs48.png"/>
+  <local:HotPlate Icon="icons8hotsprings48.png"/>
+  <local:Vegetable Icon="icons8radish48.png"/>
+  <local:Chicken Icon="icons8chicken48.png"/>
+  <local:Beef Icon="icons8cow48.png"/>
+  <local:Squid Icon="icons8tentacles48.png"/>
+  <local:WholeFish Icon="icons8fish48.png"/>
+  <local:Prawn Icon="icons8prawn48.png"/>
+  <local:Crab Icon="icons8crab48.png"/>
+  <local:Soup Icon="icons8ladle48.png"/>
+  <local:SlicedFish Icon="icons8filletedfish48.png"/>
+  <local:Others/>
+</TabbedPage>

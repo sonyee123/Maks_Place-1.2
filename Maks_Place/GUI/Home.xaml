@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Maks_Place.GUI.Home" >
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="Font" Value="Arial"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="BackgroundColor" Value="{DynamicResource backgroundColor2}"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="BorderWidth" Value="2"/>
+                <Setter Property="BorderRadius" Value="10"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="10"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Frame BackgroundColor="{DynamicResource  backgroundColor1}">
+            <StackLayout Spacing="40">
+                <Label Text="Mak's Place The Hawkerant"
+                             HorizontalOptions="CenterAndExpand" VerticalOptions="End" FontAttributes="Italic"
+                             Font="20" TextColor="{DynamicResource textColor2}" 
+                             HorizontalTextAlignment="Center"
+                             FontFamily= "{StaticResource SpicyRice}"
+                            />
+                <Label Text="What Would you like to order?"
+                             HorizontalOptions="CenterAndExpand" VerticalOptions="End"
+                             Font="16" TextColor="{DynamicResource textColor}"
+                             HorizontalTextAlignment="Center"/>
+                
+                <Button x:Name="btnDnD" Text="Drinks &amp; Desserts" Clicked="ButtonDnD_Clicked" Image="icons8cafe50.png"/> 
+            <Button x:Name="btnIndi" Text="Individual Serving" Clicked="ButtonIndiv_Clicked" Image="icons8tableware50.png"/>
+            <Button x:Name="btnFamily" Text="Family Serving" Clicked="ButtonFam_Clicked" Image= "icons8family50.png"/>
+        </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

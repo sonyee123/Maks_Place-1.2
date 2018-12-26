@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Maks_Place.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="FiraSans">
+                <On Platform="Android" Value="FiraSans-Black.ttf#FiraSans" />
+                <On Platform="UWP" Value="/Assets/FiraSans-Black.ttf#FiraSans" />
+                <On Platform="iOS" Value="FiraSans" />
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="SpicyRice">
+                <On Platform="Android" Value="SpicyRice-Regular.ttf#SpicyRice" />
+                <On Platform="UWP" Value="/Assets/SpicyRice-Regular.ttf#SpicyRice" />
+                <On Platform="iOS" Value="SpicyRice-Regular" />
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="Hind">
+                    <On Platform="Android" Value="Hind-Regular.ttf#Hind" />
+                <On Platform="UWP" Value="/Assets/Hind-Regular.ttf#Hind" />
+                    <On Platform="iOS" Value="Hind-Regular" />
+                </OnPlatform>
+          <Color x:Key="textColor">Black</Color>
+          <Style x:Key="labelStyle1" TargetType="Label">
+            <Setter Property="TextColor" Value="{DynamicResource textColor}" />
+          </Style>
+            <Color x:Key="backgroundColor1">LightYellow</Color>
+            <Style x:Key="backgroundStyle1" TargetType="VisualElement">
+            <Setter Property="BackgroundColor" Value="{DynamicResource backgroundStyle}" />
+        	  </Style>
+            <Color x:Key="textColor2">Orange</Color>
+          <Style x:Key="labelStyle2" TargetType="Label">
+            <Setter Property="TextColor" Value="{DynamicResource textColor2}" />
+          </Style>
+            <Color x:Key="backgroundColor2">Orange</Color>
+            <Style x:Key="backgroundStyle2" TargetType="VisualElement">
+            <Setter Property="BackgroundColor" Value="{DynamicResource backgroundStyle2}" />
+        	  </Style>
+          <Color x:Key="backgroundColor3">LightYellow</Color>
+          <Style x:Key="backgroundStyle3" TargetType="VisualElement">
+            <Setter Property="BackgroundColor" Value="{DynamicResource backgroundStyle3}" />
+          </Style>
+          <Color x:Key="textColor3">Black</Color>
+          <Style x:Key="labelStyle3" TargetType="Label">
+            <Setter Property="TextColor" Value="{DynamicResource textColor3}" />
+          </Style>
+            <Color x:Key="textColor4">Blue</Color>
+            <Style x:Key="labelStyle4" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource textColor4}" />
+            </Style>
+            <Color x:Key="backgroundColor4">White</Color>
+            <Style x:Key="backgroundStyle4" TargetType="VisualElement">
+                <Setter Property="BackgroundColor" Value="{DynamicResource backgroundStyle4}" />
+            </Style>
+            <Color x:Key="textColor5">DimGray</Color>
+            <Style x:Key="labelStyle5" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource textColor5}" />
+            </Style>
+            <Color x:Key="backgroundColor5">White</Color>
+            <Style x:Key="backgroundStyle5" TargetType="VisualElement">
+                <Setter Property="BackgroundColor" Value="{DynamicResource backgroundStyle5}" />
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maks_Place.GUI.Setting">
+    <ContentPage.Content>
+        <Frame BackgroundColor="{DynamicResource backgroundColor3}">
+        <StackLayout Spacing="30">
+            <Label Text="Setting and configurations" FontSize="20" Style="{DynamicResource labelStyle1}"
+                   HorizontalOptions="Center"/>
+            <StackLayout Orientation="Horizontal">
+                    <Label Text="Night mode on?" FontSize="Medium" TextColor="{DynamicResource textColor}"/>
+                <Button x:Name="btnNightMode" Text="Night Mode On/Off" Clicked="ButtonNightMode_Clicked"></Button>
+            </StackLayout>
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

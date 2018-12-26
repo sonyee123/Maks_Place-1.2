@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Maks_Place.GUI.DrinksNDesserts" xmlns:local="clr-namespace:Maks_Place.GUI" Title="Drinks &amp; Dessert">
+   <local:Can_Drinks Icon="icons8beercan48.png"/>
+   <local:Hot_and_Cold_Drinks Icon="icons8cafe50.png"/>
+   <local:Desserts Icon="icons8icecreamsundae48"/>
+</TabbedPage>
