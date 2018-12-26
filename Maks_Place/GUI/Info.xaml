@@ -3,13 +3,13 @@
 
     <ContentPage.Content>
         <ScrollView>
-        <Frame BackgroundColor="{DynamicResource backgroundColor3}" >
-            <StackLayout Spacing="30">
-                <Image Source="Logo2.png"
+            <Frame BackgroundColor="{DynamicResource backgroundColor3}" >
+                <StackLayout Spacing="30">
+                    <Image Source="Maks.png"
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>
-                
-                
+
+
                     <Label Text= "Opening Hours: 4.30PM TO 1AM 
                                     Closed on Mondays"
                            HorizontalTextAlignment="Center"
@@ -17,8 +17,8 @@
                            TextColor="{DynamicResource textColor3}" FontSize = "Medium"
                            FontFamily="{StaticResource Hind}" />
 
-                  
-                        <Label Text= "For Reservation and Takeaways: 6844-7656"
+
+                    <Label Text= "For Reservation and Takeaways: 6844-7656"
                            HorizontalOptions="Center"
                            VerticalOptions="Start"
                            TextColor="{DynamicResource textColor3}" FontSize = "Medium"
@@ -43,10 +43,11 @@
                 FontAttributes="Bold"
                 TextColor="{DynamicResource textColor3}" FontSize = "18" />
 
-                
+
                 </StackLayout>
-       
-        </Frame>
+
+            </Frame>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
+

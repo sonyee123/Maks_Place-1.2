@@ -4,13 +4,14 @@
              x:Class="Maks_Place.GUI.Setting">
     <ContentPage.Content>
         <Frame BackgroundColor="{DynamicResource backgroundColor3}">
-        <StackLayout Spacing="30">
-            <Label Text="Setting and configurations" FontSize="20" Style="{DynamicResource labelStyle1}"
+            <StackLayout Spacing="50">
+                <Label Text="Settings" FontSize="20" TextColor="{DynamicResource textColor2}"
                    HorizontalOptions="Center"/>
-            <StackLayout Orientation="Horizontal">
-                    <Label Text="Night mode on?" FontSize="Medium" TextColor="{DynamicResource textColor}"/>
-                <Button x:Name="btnNightMode" Text="Night Mode On/Off" Clicked="ButtonNightMode_Clicked"></Button>
-            </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="1. Tap on button to trigger night mode." FontSize="Medium" TextColor="{DynamicResource textColor3}"/>
+                    <Button x:Name="btnNightMode" Text="On/Off" FontSize="13" Clicked="ButtonNightMode_Clicked"
+                     BackgroundColor="{DynamicResource backgroundColor2}" BorderRadius="20"></Button>
+                </StackLayout>
             </StackLayout>
         </Frame>
     </ContentPage.Content>

@@ -11,14 +11,14 @@ namespace Maks_Place.GUI
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Setting : ContentPage
     {
-        int i=1;
+        int i = 1;
         Switch switcher = new Switch();
         public Setting()
         {
             InitializeComponent();
         }
         void ButtonNightMode_Clicked(object sender, System.EventArgs e)
-        {    
+        {
             i += 1;
             if (i % 2 == 1)
             {
@@ -37,7 +37,7 @@ namespace Maks_Place.GUI
             }
             else
             {
-                
+
                 App.Current.Resources["textColor"] = Color.White;
                 App.Current.Resources["backgroundColor1"] = Color.Black;
                 App.Current.Resources["textColor2"] = Color.Tomato;

@@ -28,11 +28,11 @@
                              HorizontalOptions="CenterAndExpand" VerticalOptions="End"
                              Font="16" TextColor="{DynamicResource textColor}"
                              HorizontalTextAlignment="Center"/>
-                
-                <Button x:Name="btnDnD" Text="Drinks &amp; Desserts" Clicked="ButtonDnD_Clicked" Image="icons8cafe50.png"/> 
-            <Button x:Name="btnIndi" Text="Individual Serving" Clicked="ButtonIndiv_Clicked" Image="icons8tableware50.png"/>
-            <Button x:Name="btnFamily" Text="Family Serving" Clicked="ButtonFam_Clicked" Image= "icons8family50.png"/>
-        </StackLayout>
+
+                <Button x:Name="btnDnD" Text="Drinks &amp; Desserts" Clicked="ButtonDnD_Clicked" Image="icons8cafe50.png"/>
+                <Button x:Name="btnIndi" Text="Individual Serving" Clicked="ButtonIndiv_Clicked" Image="icons8tableware50.png"/>
+                <Button x:Name="btnFamily" Text="Family Serving" Clicked="ButtonFam_Clicked" Image= "icons8family50.png"/>
+            </StackLayout>
         </Frame>
     </ContentPage.Content>
 </ContentPage>
